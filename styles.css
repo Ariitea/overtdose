@@ -32,10 +32,19 @@ h1 {
   font-size: 4.8rem;
   letter-spacing: 3px;
   text-transform: uppercase;
+  width: 50%;
+  margin: 12 auto;
+  padding: center;
+  display: block;
+  text-align: left;
 }
 
 article {
-  display: block; text-align: left; width: 650px; margin: 0 auto;
+  display: block;
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  padding: center;
 }
 
 a {
@@ -56,7 +65,7 @@ a:hover {
 }
 
 @media screen and (min-width: 1000px){
-  section:not(.booking){
+  .container{
     padding: 10rem 0;
   }
 
@@ -67,7 +76,7 @@ a:hover {
 }
 
 @media screen and (min-width: 1200px){
-  .book-form .input-group:first-child{
+  .container {
     flex: 0 0 30%;
   }
 }
