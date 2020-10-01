@@ -34,10 +34,17 @@ h1 {
   letter-spacing: 3px;
   text-transform: uppercase;
   width: 50%;
+  margin-left: 20px;
   /* margin: 12 auto; */
-  padding: 0;
+  padding: center;
   /* display: block; */
   text-align: left;
+}
+
+.paragraph{
+  margin-left: 20px;
+  margin-right: 10px;
+  position: center;
 }
 
 article {
